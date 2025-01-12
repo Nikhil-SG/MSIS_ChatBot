@@ -18,7 +18,7 @@ from llama_index.core import get_response_synthesizer
 from llama_index.core import PromptTemplate
 
 # Initialize the LLM and other variables
-llm = Groq(model="llama3-70b-8192", api_key='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')
+llm = Groq(model="llama3-70b-8192", api_key='## Add your API Key')
 
 # Initialize PDF Reader
 pdf_folder = 'DOC'  # Path to your PDF folder
